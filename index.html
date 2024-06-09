@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<script>
+  $(document).ready(function() {
+      function checkWidth() {
+          if ($(window).width() <= 768) {
+              $('a').addClass('d-block');
+          } else {
+              $('a').removeClass('d-block');
+          }
+      }
+
+      // Run on initial load
+      checkWidth();
+
+      // Bind event listener
+      $(window).resize(function() {
+          checkWidth();
+      });
+  });
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img id="imagennavbar" src="/imagenes/logo.png" alt="Bootstrap" width="30" height="24">
+          </a>
+        </div>
+      </nav>
+
+      <section class="container-fluid portada">
+        <div class="container">
+            <h1>SUSCRIBETE Y GANA!!</h1>
+            <p>Al suscribirte, te estarás registrando al sorteo de una gift card de 50 dolares!!!</p>
+            
+        </div>
+        <div class="container ctaboton">
+          <a href="#formularioid">SUSCRIBIRSE</a>
+        </div>
+      </section>
+
+
+
+      
+      <section class="container-fluid apple">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-5">
+              <img class="img-fluid img-desk" src="/imagenes/apple.png" alt="">
+              <img class="img-fluid img-movil" src="/imagenes/applemobile.png" alt="">
+            </div>
+            <div class="col-12 col-lg-7 textoapple">
+              <h2>Apple Gift Card!!!</h2>
+              <p>Utilízalo para comprar en la App Store,Apple TV, Apple Music, iTunes, Apple Arcade, la aplicación de la Apple Store, apple.com y la Apple Store.</p>
+              <ul class="listaapple">
+                <li>
+                  <img class="img-fluid" src="/imagenes/icono1.png" alt="">
+                  <p>Mac</p>
+                </li>
+                <li>
+                  <img class="img-fluid" src="/imagenes/icono2.png" alt="">
+                  <p>iPhone</p>
+                </li>
+                <li>
+                  <img class="img-fluid" src="/imagenes/icono3.png" alt="">
+                  <p>Mac</p>
+                </li>
+                <li>
+                  <img class="img-fluid" src="/imagenes/icono4.png" alt="">
+                  <p>Mac</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="container-fluid infocontenido">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2>TODO EN UN SOLO LUGAR</h2>
+            </div>
+          </div>
+          <div class="row align-items-top">
+            <div class="col-sm-12 col-lg-4 tarjeta">
+              <h3>NOTICIAS PARA QUE ESTÉS AL DÍA</h3>
+              <p>No te pierdas de nada de lo que sucede en el mundo, en Xataka estarás informado todos los días</p>
+            </div>
+            <div class="col-12 col-lg-4 tarjeta">
+              <h3>INFORMACIÓN SOBRE APPS Y NUEVOS LANZAMIENTOS</h3>
+              <p>Informate de todas las novedades del mundo de la tecnologia, se el primero en conocer los ultimos lanzamientos de las primeras marcas</p>
+            </div>
+            <div class="col-12 col-lg-4 tarjeta">
+              <h3>TUTORIALES, GÍAS Y RECOMENDACIONES</h3>
+              <p>Encontrarás respuestas a tus problemas y preguntas, tenemos una amplia variedad de ayudas y guias, con las que podrás aprovechar al maximo tus dispositivos, o resolver tus problemas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="container-fluid descubri">
+        <div class="container">
+          <div class="row">
+            <div class="col-10">
+              <h2>DESCUBRÍ LO QUE TENEMOS EN  <span style="color: chartreuse;">XATAKA</span></h2>
+            </div>
+            <div class="col-2">
+              <img class="img-fluid" src="/imagenes/linead.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+   <section class="container destacada">
+          <div class="row">
+            <div class="col-lg-3 tit">
+              <h3>Noticias destacadas</h3>
+            </div>
+          </div>
+            <div class="row filanot">
+              <div class="col-lg-7 order-last order-lg-first cuerpo">
+                <h2 class="titulonot">Los deepfakers que triunfan en China no son de famosos. Son de seres queridos que ya murieron.</h2>
+                  <p class="textonot">"La resurrección por IA" comienza a popularizarse, pero los riesgos son notables.</p>
+                  <p class="autor">- JAVIER PASTOR - HACE 7 HORAS</p>
+              </div>
+              <div class="col-lg-5 order-first order-lg-last">
+                <img class="img-fluid" src="/imagenes/vieja.png" alt="">
+              </div>
+            </div>
+            <div class="row filanot">
+              <div class="col-lg-7 cuerpo">
+                <h2 class="titulonot">EEUU acaba de asestar a Huawei su golpe final: Intel y Qualcomm ya no podrán venderle ningún chip.</h2>
+                  <p class="textonot">Huawei  fué una de las primeras compañías chinas introducidas por la Administración de EEUU en su lista negra. </p>
+                  <p class="autor">- JAVIER PASTOR - HACE 7 HORAS</p>
+              </div>
+              <div class="col-lg-5">
+                <img class="img-fluid" src="/imagenes/cientifico.png" alt="">
+              </div>
+            </div>
+    </section>
+
+    <!-- ----------ESTO SE VE EN PC-------- -->
+    <!-- ----------ESTO SE VE EN PC-------- -->
+    <!-- ----------ESTO SE VE EN PC-------- -->
+    <!-- ----------ESTO SE VE EN PC-------- -->
+    <section class="container-fluid seleccion">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 verde">
+            <h2>Xataka <strong>SELECCIÓN</strong></h2>
+            <p>Ofertas en móviles</p>
+            <p>Ofertas en infotmática</p>
+            <p>Ofertas en imagen y sonido</p>
+            <p>Ofertas en hogar conectado</p>
+            <h3>MÁS EN XATAKA SELECCIÓN</h3>
+          </div>
+          <div class="col-lg-4 blanco">
+            <img class="img-fluid fotoseccion" src="/imagenes/gato.png" alt="">
+            <p>En el outlet de MediaMarkt tienes el iPhone 15 a un precio que tardarás mucho en ver: es el mejor teléfono de Apple hasta la fecha</p>
+          </div>
+          <div class="col-lg-4 blanco">
+            <img class="img-fluid fotoseccion" src="/imagenes/tele.png" alt="">
+            <p>
+              Renovar ese viejo televisor que ya no se ve por un modelo 4k y pantalla de 55 pulgadas como este Xiaomi sale ahora más barato
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ----------ESTO SE VE EN MOBILE-------- -->
+    <!-- ----------ESTO SE VE EN MOBILE-------- -->
+    <!-- ----------ESTO SE VE EN MOBILE-------- -->
+     <section class="container-fluid carruselmobile">
+      <h2 class="tituloCar">XATAKA <strong>SELECCION</strong></h2>
+      <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+      <a class="next" onclick="moveSlide(1)">&#10095;</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3>Ofertas en móviles</h3>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/gatomobile.png" alt="">
+                      <p>En el outlet de MediaMarkt tienes el iPhone 15 a un precio que tardarás mucho en ver: es el mejor teléfono de Apple hasta la fecha</p>
+                    </div>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1b.png" alt="">
+                      <p>Renovar ese viejo televisor que ya no se ve por un modelo 4k y pantalla de 55 pulgadas como este Xiaomi sale ahora más barato</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Ofertas en infotmática</h3>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1c.png" alt="">
+                      <p>HP tiene un monitor curvo barato ideal para edición de fotografía o vídeo y destaca por ser uno de los mejor valorados de Amazon</p>
+                    </div>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1d.png" alt="">
+                      <p>Xiaomi tiene un comedero inteligente que te permite alimentar a tu perro o gato cuando no estés en casa y ahora sale muy barato</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Ofertas en imagen y sonido</h3>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1e.png" alt="">
+                      <p>El proyector barato que buscas para montar tu propio cine en casa o en el jardín podría ser este que no cuesta ni 50 euros</p>
+                    </div>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1f.png" alt="">
+                      <p>Que el calor no te fastidie el verano: El Corte Inglés tiene este aire acondicionado Cecotec muy barato y portátil</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Ofertas en hogar conectado</h3>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1g.png" alt="">
+                      <p>Cae el precio de este pack de PlayStation 5 Slim con dos mandos para dar por fin el salto a la nueva generación de consolas</p>
+                    </div>
+                    <div class="imagenytexto">
+                      <img class="img-fluid" src="/imagenes/carousel1h.png" alt="">
+                      <p>Ya se han presentado las nuevas tablets de Apple, pero este iPad sigue siendo una gran opción si buscas algo más barato</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="piecarrusel">MÁS EN XATAKA SELECCIÓN</h2>
+     </section>
+    
+
+
+
+
+
+
+
+    <section class="container destacada">
+      <div class="row">
+        <div class="col-lg-3 tit">
+          <h3>Noticias destacadas</h3>
+        </div>
+      </div>
+        <div class="row filanot">
+          <div class="col-lg-7 cuerpo">
+            <h2 class="titulonot">Al CEO de Electronic Arts no le basta con cobrar 70 euros por cada videojuego. Está estudiando cómo meter anuncios.</h2>
+              <p class="textonot">Es justo lo que necesitan los videojuegos.</p>
+              <p class="autor">- JAVIER PASTOR - HACE 7 HORAS</p>
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="/imagenes/colacao.png" alt="">
+          </div>
+        </div>
+        <div class="row filanot">
+          <div class="col-lg-7 cuerpo">
+            <h2 class="titulonot">Los televisores OLED, Neo QLED 8k y 4k de Samsung para 2024 nos prometen mejor IA.</h2>
+              <p class="textonot">Para la filial de Samsung que se responsabiliza del diseño y la fabricación de sus televisores 2024 es el año de la inteligencia artificial.</p>
+              <p class="autor">- JAVIER PASTOR - HACE 7 HORAS</p>
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="/imagenes/victoria.png" alt="">
+          </div>
+        </div>
+</section>
+
+
+
+<section class="container-fluid carruselmobile">
+  <h2 class="tituloCar">XATAKA <strong>BASICS</strong></h2>
+  <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+  <a class="next" onclick="moveSlide(1)">&#10095;</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3>WHATSAPP</h3>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2a.png" alt="">
+                  <p>Cómo desbloquear tu móvil automaticamente cuando estás en casa</p>
+                </div>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2b.png" alt="">
+                  <p>Renovar ese viejo televisor que ya no se ve por un modelo 4k y pantalla de 55 pulgadas como este Xiaomi sale ahora más barato</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h3>INSTAGRAM</h3>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2c.png" alt="">
+                  <p>Estafa de falsas ofertas de empleo en WhatsApp: cómo son y cómo evitar este timo de reclutamiento laboral</p>
+                </div>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2d.png" alt="">
+                  <p>El AirTag no conecta: problemas comunes de conexión y cómo solucionarlos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h3>WINDOWS</h3>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2e.png" alt="">
+                  <p>Fallos en la Renta 2023: cómo comprobar si hay errores en tu declaración que debes solucionar</p>
+                </div>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2f.png" alt="">
+                  <p>Ayuda de 600 euros por hacer un curso del SEPE y Fundae: qué necesitas, plazos y condiciones para empleados y desempleados</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h3>TRUCOS TECNOLOGICOS</h3>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2g.png" alt="">
+                  <p>Audio Espacial: qué es, cómo funciona y dispositivos y apps compatibles</p>
+                </div>
+                <div class="imagenytexto">
+                  <img class="img-fluid" src="/imagenes/2h.png" alt="">
+                  <p>App de Gemini para móvil: qué es, qué puedes hacer con ella y cómo instalarla</p>
+                </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="piecarrusel">MÁS EN XATAKA BASICS</h2>
+ </section>
+
+<section class="container-fluid seleccion">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 verde">
+        <h2>Xataka <strong>BASICS</strong></h2>
+        <p>Whatsapp</p>
+        <p>Instagram</p>
+        <p>Windowns</p>
+        <p>Trucos tecnológicos</p>
+        <h3>MÁS EN XATAKA BASICS</h3>
+      </div>
+      <div class="col-lg-4 blanco">
+        <img class="img-fluid fotoseccion" src="/imagenes/celunegro.png" alt="">
+        <p>En el outlet de MediaMarkt tienes el iPhone 15 a un precio que tardarás mucho en ver: es el mejor teléfono de Apple hasta la fecha</p>
+      </div>
+      <div class="col-lg-4 blanco">
+        <img class="img-fluid fotoseccion" src="/imagenes/apps.png" alt="">
+        <p>
+          Renovar ese viejo televisor que ya no se ve por un modelo 4k y pantalla de 55 pulgadas como este Xiaomi sale ahora más barato
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <section id="formularioid" class="container-fluid formularioo">
+      <div class="row">
+        <div class="col-lg-5 textoformulario">
+          <h2>SUSCRIBETE!!</h2>
+          <h3>Si ganas, serás notificado mediante Email</h3>
+        </div>
+        <div class="col-lg-7 formulario">
+          <form>
+            <div>
+              <input id="nombre" placeholder="NOMBRE" type="text" class="form-control" aria-describedby="emailHelp">
+            </div>
+            <div>
+              <input id="mail" placeholder="MAIL" type="email" class="form-control" aria-describedby="emailHelp">
+            </div>
+
+            <div class="bordecheck">
+              <h2>¿QUÉ DISPOSITIVOS SUELES USAR MÁS FRECUENTEMENTE?</h2>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="exampleCheck1">Smartphone</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="exampleCheck1">PC</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="exampleCheck1">Tablet</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="exampleCheck1">Consola</label>
+              </div>
+            </div>
+            <button id="submit" type="submit" class="botform">SUSCRIBIRME</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="feedbackk" class="container oculto fidbac">
+      <div class="row">
+        <div class="col-12 feedback">
+          <div class="icono">
+            <img class="img-fluid" id="atras" src="/imagenes/cruz.png" alt="">
+          </div>
+          <p><span id="nombrefeedback"></span>,GRACIAS POR SUSCRIBIRTE!!! SI GANAS TE INFORMAREMOS POR EMAIL A <span id="mailfeedback"></span></p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section class="container-fluid fin">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 lineaf"></div>
+          </div>
+          <div class="row logos">
+            <div class="col-3"><img src="/imagenes/youtube.png" alt=""></div>
+            <div class="col-3"><img src="/imagenes/twitter.png" alt=""></div>
+            <div class="col-3"><img src="/imagenes/instagram.png" alt=""></div>
+            <div class="col-3"><img src="/imagenes/facebook.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+        
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+    <section class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+              <!-- ----------primer diapositiva-------- -->
+              <div class="carousel-item active">
+                <img src="/imagenes/fondocarousel.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>XATAKA SELECCIÓN</h2>
+                  <h3>WHATSAPP</h3>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/gatomobile.png" alt="">
+                    <p>En el outlet de MediaMarkt tienes el iPhone 15 a un precio que tardarás mucho en ver: es el mejor teléfono de Apple hasta la fecha</p>
+                  </div>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1b.png" alt="">
+                    <p>Renovar ese viejo televisor que ya no se ve por un modelo 4k y pantalla de 55 pulgadas como este Xiaomi sale ahora más barato</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ----------segunda diapositiva-------- -->
+              <div class="carousel-item active">
+                <img src="/imagenes/fondocarousel.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>XATAKA SELECCIÓN</h2>
+                  <h3>INSTAGRAM</h3>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1c.png" alt="">
+                    <p>HP tiene un monitor curvo barato ideal para edición de fotografía o vídeo y destaca por ser uno de los mejor valorados de Amazon</p>
+                  </div>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1d.png" alt="">
+                    <p>Xiaomi tiene un comedero inteligente que te permite alimentar a tu perro o gato cuando no estés en casa y ahora sale muy barato</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ----------tercera diapositiva-------- -->
+              <div class="carousel-item active">
+                <img src="/imagenes/fondocarousel.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>XATAKA SELECCIÓN</h2>
+                  <h3>WINDOWS</h3>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1e.png" alt="">
+                    <p>El proyector barato que buscas para montar tu propio cine en casa o en el jardín podría ser este que no cuesta ni 50 euros</p>
+                  </div>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1f.png" alt="">
+                    <p>Que el calor no te fastidie el verano: El Corte Inglés tiene este aire acondicionado Cecotec muy barato y portátil</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ----------cuarta diapositiva-------- -->
+              <div class="carousel-item active">
+                <img src="/imagenes/fondocarousel.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>XATAKA SELECCIÓN</h2>
+                  <h3>TRUCOS TECNOLOGICOS</h3>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1g.png" alt="">
+                    <p>Cae el precio de este pack de PlayStation 5 Slim con dos mandos para dar por fin el salto a la nueva generación de consolas</p>
+                  </div>
+                  <div class="imagenytexto">
+                    <img class="img-fluid" src="/imagenes/carousel1h.png" alt="">
+                    <p>Ya se han presentado las nuevas tablets de Apple, pero este iPad sigue siendo una gran opción si buscas algo más barato</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    .formularioo{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.textoformulario{
+    font-family: "Orbitron", sans-serif;
+    padding: 75px 100px 100px 59px;
+    color: #5CFF00;
+    background-color: #1D242D;
+}
+.textoformulario h2{
+    margin-bottom: 56px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.textoformulario h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.formulario{
+    padding: 30px 59px;
+    color: #1D242D;
+    background-color: #5CFF00;
+}
+.formulario input{
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    padding: 0px 60px;
+    background-color: #5CFF00;
+    border: #1D242D 1px solid;
+}
+.form-check input{
+    background-color: #1D242D;
+    padding: 6px;
+}
+.bordecheck{
+    border-radius: 5px;
+    border: #1D242D 1px solid;
+}
+.bordecheck h2{
+    padding: 7px 60px;
+    font-size: 13px;
+    border-bottom: #1D242D 1px solid;
+}
+.form-check{
+    padding: 7px 76px;
+    margin-bottom: 0px;
+    font-family: "Orbitron", sans-serif;
+}
+.botform{
+    text-align: center;
+    background-color: #1D242D;
+    color: #5CFF00;
+    font-family: "Orbitron", sans-serif;
+    padding-left: 59px;
+    padding-right: 59px;
+    margin-top: 13px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+
+<nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/imagenes/logo.png" alt="Bootstrap" width="30" height="24">
+          </a>
+        </div>
+      </nav>
