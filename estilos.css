@@ -296,6 +296,7 @@ text-shadow: #5CFF00 0px 6px;
     border: none;
 }
 .feedback{
+    overflow-x: hidden;
     position: relative;
     color: #1D242D;
     font-family: "Orbitron", sans-serif;
@@ -400,7 +401,7 @@ text-shadow: #5CFF00 0px 6px;
 @media only screen and (max-width:768px){
     .portada{
         background-image: url(imagenes/fondomobile.png);
-        height: 85vh;
+        height: 779px;
         padding-top: 140px;
     }
     .portada h1{
@@ -413,6 +414,7 @@ text-shadow: #5CFF00 0px 6px;
         margin-bottom: 108px;
     }
     .portada a{
+        display: block;
         font-size: 20px;
         font-weight: 900;
         text-align: center;
@@ -423,7 +425,17 @@ text-shadow: #5CFF00 0px 6px;
         text-align: center;
     }
     .listaapple{
-        display: none;
+        justify-content: space-between;
+    }
+    .listaapple li{
+        margin-right: 6%;
+        width: 20%;
+    }
+    .listaapple li:nth-child(4){
+        margin-right: 0px;
+    }
+    .listaapple li img{
+        width: 100%;
     }
     .img-desk{
         display: none;
@@ -432,6 +444,7 @@ text-shadow: #5CFF00 0px 6px;
         display: block;
     }
     .apple{
+        margin-top: 90px;
         padding: 30px 0px;
     }
     .textoapple{
@@ -459,11 +472,19 @@ text-shadow: #5CFF00 0px 6px;
         padding-top: 15px;
         font-size: 16px;
     }
-
+    .infocontenido{
+        margin-top: 90px;
+    }
+    .infocontenido h2{
+        font-size: 22px;
+    }
+    .descubri{
+        margin-top: 90px;
+        margin-bottom: 45px;
+    }
     .descubri h2{
         font-size: 24px;
     }
-
     .titulonot{
         font-size: 16px;
     }
@@ -477,6 +498,8 @@ text-shadow: #5CFF00 0px 6px;
         display: none;
     }
     .carruselmobile{
+        margin-top: 90px;
+        margin-bottom: 90px;
         display: block;
     }
 
@@ -490,7 +513,7 @@ text-shadow: #5CFF00 0px 6px;
     .textoformulario h2{
         margin-bottom: 0px;
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 900;
     }
     .textoformulario h3{
@@ -499,7 +522,12 @@ text-shadow: #5CFF00 0px 6px;
         padding-top: 0px;
         font-size: 14px;
     }
+    .formularioo{
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
     .formulario{
+        margin-top: 0px;
         margin-bottom: 0px;
         color: #5CFF00;
         background-color: #1D242D;
@@ -526,7 +554,7 @@ text-shadow: #5CFF00 0px 6px;
     }
 
     .fin{
-        margin-top: 200px;
+        margin-top: 0px;
     }
     .fin img{
         padding-top: 10px;
