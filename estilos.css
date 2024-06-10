@@ -43,9 +43,12 @@ text-shadow: #5CFF00 0px 6px;
     background-color: #5CFF00;
     padding: 13px 52px;
 }
+.applemob{
+    display: none;
+}
 .apple{
     background-color: white;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 20px 0;
 }
 .textoapple{
@@ -424,6 +427,9 @@ text-shadow: #5CFF00 0px 6px;
         align-items: center;
         text-align: center;
     }
+    .applemob{
+        display: none;
+    }
     .listaapple{
         justify-content: space-between;
     }
@@ -444,14 +450,26 @@ text-shadow: #5CFF00 0px 6px;
         display: block;
     }
     .apple{
+        display: none;
         margin-top: 90px;
         padding: 30px 0px;
+    }
+    .applemob{
+        display: block;
+        background-color: white;
+    }
+    .applemob h2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
     }
     .textoapple{
         padding: 0px 20px;
     }
     .textoapple h2{
-        display: none;
+        text-align: center;
     }
     .textoapple p{
         font-size: 16px;
