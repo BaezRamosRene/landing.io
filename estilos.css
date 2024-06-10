@@ -14,7 +14,7 @@ width: 103px;
 height: auto;
 }
 .portada{
-    background-image: url(/imagenes/fondov2.png);
+    background-image: url(imagenes/fondov2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -399,7 +399,7 @@ text-shadow: #5CFF00 0px 6px;
 
 @media only screen and (max-width:768px){
     .portada{
-        background-image: url(/imagenes/fondomobile.png);
+        background-image: url(imagenes/fondomobile.png);
         height: 85vh;
         padding-top: 140px;
     }
