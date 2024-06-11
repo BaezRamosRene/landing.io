@@ -317,9 +317,6 @@ text-shadow: #5CFF00 0px 6px;
 .fidbac{
     margin-bottom: 200px;
 }
-
-
-
 .carruselmobile{
     position: relative;
     padding: 40px 0px;
@@ -589,5 +586,8 @@ text-shadow: #5CFF00 0px 6px;
     body{
         overflow-x: hidden;
         background-color: black;
+        }
+        .form-control {
+            color: #5CFF00;
         }
 } 
