@@ -573,10 +573,13 @@ text-shadow: #5CFF00 0px 6px;
 
     .fin{
         margin-top: 0px;
+        padding-bottom: 200px;
     }
     .fin img{
+        width: 35px;
         padding-top: 10px;
-        max-width: 18px;
+        padding-bottom: 200px;
+        margin-bottom: 200px;
     }
     .navbar{
         justify-content: center;
